@@ -1,0 +1,21 @@
+.header__inner {
+    min-height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.menu__list {
+    display: flex;
+    gap: 0 65px;
+    align-items: center;
+    font-weight: 400;
+    font-style: 18px;
+}
+
+.user__actions {
+    display: flex;
+    gap: 0 15px;
+    align-items: center;
+}

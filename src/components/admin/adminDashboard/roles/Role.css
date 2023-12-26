@@ -1,0 +1,83 @@
+.role__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #EBF7FF;
+}
+
+.main__text-wrapper {
+    min-width: 87vw;
+    min-height: 55px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EFEFF0;;
+}
+
+.main__text {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: black;
+    cursor: default;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.page__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table__wrapper {
+    display: block;
+    width: 725px;
+    background-color: white;
+    border: 1px solid #EFEFF0;
+    border-radius: 7px;
+    margin: 15px 15px 15px 15px;
+}
+
+.table__block {
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.table {
+    width: 655px;
+}
+
+.table__header {
+    border-bottom: 1px solid #EFEFF0;
+}
+
+.role__form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 200px;
+    border: 1px solid #EFEFF0;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.role__title-wrapper {
+    margin-top: 20px;
+    border-bottom: 1px solid #EFEFF0;
+}
+
+.role__title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.role__form {
+    margin-bottom: 15px;
+}
+
+.alert__wrapper {
+    margin: 15px 15px;
+}
+

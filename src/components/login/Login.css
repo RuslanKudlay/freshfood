@@ -1,0 +1,25 @@
+.login__container { 
+    max-width: 300px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #000;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+.login__form{
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.lable {
+    display: block;
+}
+
+.login__button{
+    margin: 15px 0;
+}

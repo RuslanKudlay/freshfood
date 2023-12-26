@@ -1,0 +1,175 @@
+.product__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #EBF7FF;
+    height: 100vh;
+}
+
+.main__text-wrapper {
+    min-width: 87vw;
+    min-height: 55px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EFEFF0;
+}
+
+.main__text {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: black;
+    cursor: default;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.products__wrapper {
+    background-color: white;
+    border: 1px solid #EFEFF0;
+    border-radius: 7px;
+    min-height: 600px;
+    max-height: 600px;
+    min-width: 800px;
+    max-width: 800px;
+    margin-top: 35px;
+    margin-left: 15px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.product {
+    background-color: rgb(241, 241, 241);
+    border: 1px solid #e8e8e8;
+    border-radius: 7px;
+    height: 250px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.product__info {
+    display: flex;
+    flex-direction: column;
+    height: 240;
+    padding: 5px;
+}
+
+.product__type {
+    text-align: center;
+}
+
+.product__additional-button {
+    text-align: center;
+}
+
+.product__image {
+    height: 120px;
+    width: 120px;
+}
+
+.product__add-form {
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 600px;
+    min-height: 600px;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 7px;
+    margin-top: 35px;
+    margin-right: 55px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.product__title-wrapper {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.product__title {
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #606060;;
+}
+
+.form__product {
+    height: 450px;
+    width: 300px;
+}
+
+.product__typeProduct-dropDown {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product__measurement-dropDown {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product__adding-button {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.element-with-scroll {
+    overflow: auto;
+}
+
+.element-with-scroll::-webkit-scrollbar {
+    width: 7px;
+}
+
+.element-with-scroll::-webkit-scrollbar-thumb {
+    background-color: #92830e;
+    border-radius: 6px;
+}
+
+.element-with-scroll::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
